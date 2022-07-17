@@ -55,11 +55,22 @@
           </ul>
         </nav>
         <!--contact-->
-        <a class="contact contact-mail link" href="mailto:info@devstudio.com"
-          >info@devstudio.com</a
+        <a class="contact contact-mail svg-mail"
+          ><svg class="" width="16" height="12">
+            <use href="./images/icons.svg#mail"></use></svg>
+          </a>
+        <a class="contact contact-mail link" href="mailto:info@devstudio.com">
+          info@devstudio.com</a
         >
         <br />
-        <a class="contact link" href="tel:+380961111111">+380961111111</a>
+        <a class="contact link phone-icon" href="tel:+380961111111"
+          ><svg width="16" height="12">
+            <use
+              class="phone-icon"
+              href="./images/icons.svg#smartphone"
+            ></use></svg>
+          </a>
+        <a class="contact link" href="tel:+380961111111"> +380961111111</a>
       </div>
     </header>
     <!--Main-->
@@ -78,7 +89,12 @@
         <div class="container props-container">
           <h2 class="visually-hidden">Особенности</h2>
           <ul class="qualities-list">
-            <li class="list-item">
+            <li class="list-item ">
+              <div class="props-item-container">
+              <svg class="props-icon" width="70" height="70">
+                <use href="./images/icons.svg#antenna"></use>
+              </svg>
+            </div>
               <h3 class="secondH-item">Внимание к деталям</h3>
               <p class="qualities-item">
                 Идейные соображения, а также начало повседневной работы по
@@ -86,6 +102,10 @@
               </p>
             </li>
             <li class="list-item">
+              <div class="props-item-container"><svg class="props-icon"  width="70" height="70">
+                <use href="./images/icons.svg#clock"></use>
+              </svg>
+            </div>
               <h3 class="secondH-item">Пунктуальность</h3>
               <p class="qualities-item">
                 Задача организации, в особенности же рамки и место обучения
@@ -93,6 +113,11 @@
               </p>
             </li>
             <li class="list-item">
+              <div class="props-item-container">
+              <svg class="props-icon" width="70" height="70">
+                <use href="./images/icons.svg#astronaut"></use>
+              </svg>
+            </div>
               <h3 class="secondH-item">Планирование</h3>
               <p class="qualities-item">
                 Равным образом консультация с широким активом в значительной
@@ -100,6 +125,10 @@
               </p>
             </li>
             <li class="list-item">
+              <div class="props-item-container"><svg class="props-icon"  width="70" height="70">
+                <use href="./images/icons.svg#diagram"></use>
+              </svg>
+            </div>
               <h3 class="secondH-item">Современные технологии</h3>
               <p class="qualities-item">
                 Значимость этих проблем настолько очевидна, что реализация
@@ -324,6 +353,44 @@
       <section class="section-clients">
         <div class="container">
           <h2 class="headline-section">Наши постоянные клиенты</h2>
+          <ul class="clients-list">
+            <li class="list-item logo-container">
+              <a class="client-logo"><svg width="106" height="60">
+                  <use href="./images/icons.svg#Logo1"></use></svg>
+                </a>
+            </li>
+            <li class="list-item logo-container">
+              <a class="client-logo"><svg width="106" height="60">
+                  <use href="./images/icons.svg#Logo2"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="list-item logo-container">
+              <a class="client-logo"><svg width="106" height="60">
+                  <use href="./images/icons.svg#Logo3"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="list-item logo-container">
+              <a class="client-logo"><svg width="106" height="60">
+                  <use href="./images/icons.svg#Logo4"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="list-item logo-container">
+              <a class="client-logo"><svg width="106" height="60">
+                  <use href="./images/icons.svg#Logo5"></use></svg>
+                </a>
+            </li>
+            <div class="logo-container">
+            <li class="list-item">
+              <a class="client-logo"><svg width="106" height="60">
+                  <use href="./images/icons.svg#Logo6"></use>
+                </svg>
+              </a>
+            </li>
+          </div>
+          </ul>
         </div>
       </section>
     </main>
