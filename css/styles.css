@@ -319,13 +319,13 @@ margin-left: auto; margin-right: 0; padding: 0;}
   color: #757575;
 }
 
-.social-link{display: flex; gap: 34px; margin-top: 30px; padding: 0; align-items: center; justify-content: center;
+.social-link{display: flex; gap: 10px; margin-top: 30px; padding: 0; align-items: center; justify-content: center;
    ;}
-.link-soc{fill: #AFB1B8
+.link-soc{fill: #AFB1B8;
   ;}
-  .link-soc{display: block; background-color: #FFFFFF; border-radius: 50%; outline: 5px red; cursor: pointer;}
-  .link-soc:hover{fill:  var(--active-button-color);}
-  .link-soc:focus{fill: var(--active-button-color);}
+  .link-soc{display: flex; background-color: #FFFFFF; width: 44px; height: 44px; border-radius:50%; outline: 5px red; cursor: pointer; align-items: center;  gap:10px; justify-content: center; }
+  .link-soc:hover{ background-color: var(--active-button-color); fill: white;}
+  .link-soc:focus{ background-color: var(--active-button-color); fill: white;}
 
   /*Clients*/
 
@@ -356,9 +356,14 @@ margin-left: auto; margin-right: 0; padding: 0;}
   margin-top: 20px;
 }
 
-.social-clients{ display: flex; padding: 0; gap: 10px; margin-top: 20px; margin-bottom: 0;}
-.call-client{font-family: 'Roboto';
-  font-style: normal;
+.social-clients{ display: flex; gap:10px;padding: 0; margin-top: 20px; margin-bottom: 0; }
+.social-footer{ display:flex; background-color:rgba(255, 255, 255, 0.1);; width: 44px; height: 44px; border-radius:50%;  cursor: pointer; align-items: center;  gap:10px; justify-content: center;}
+.socials-footer-icon{fill: white;}
+.social-footer:hover{background-color: var(--active-button-color);}
+.social-footer:focus{background-color: var(--active-button-color);}
+.socials-footer-icon:hover{ background-color: var(--active-button-color); fill: white;}
+.socials-footer-icon:focus{ background-color: var(--active-button-color); fill: white;}
+.call-client{
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
@@ -413,6 +418,9 @@ margin-left: auto; margin-right: 0; padding: 0;}
   border-right: 2px;
   border-color: gray;
   border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 0px 0px 4px 4px;
+
 }
 
 /**Contact**/
@@ -497,6 +505,7 @@ margin-left: auto; margin-right: 0; padding: 0;}
   margin-top: 50px;
   margin-bottom: 0;
 }
+.image-shadow:hover {box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);cursor: pointer}
 
 .project-name-container {
   padding-top: 20px;
